@@ -12,6 +12,9 @@ public final class CLWaterWaveView: UIView {
 
     // MARK: Public and IBInspectable properties
 
+    /// Wave depth.
+    /// - Depth range: 0.0 ... 1.0.
+    /// - Default value is 0.37
     @IBInspectable
     public var depth: CGFloat = CLWaterWaveModel.Defaults.depth {
         didSet {
@@ -19,6 +22,9 @@ public final class CLWaterWaveView: UIView {
         }
     }
 
+    /// Wave amplitude
+    /// - Set bigger than 0.0
+    /// - Default value is 39.0
     @IBInspectable
     public var amplitude: CGFloat = CLWaterWaveModel.Defaults.amplitude {
         didSet {
@@ -26,6 +32,9 @@ public final class CLWaterWaveView: UIView {
         }
     }
 
+    /// Wave speed
+    /// - Set bigger than 0.0
+    /// - Default value is 0.009
     @IBInspectable
     public var speed: CGFloat = CLWaterWaveModel.Defaults.speed {
         didSet {
@@ -33,6 +42,9 @@ public final class CLWaterWaveView: UIView {
         }
     }
 
+    /// Wave Angular Velocity
+    /// - Set bigger than 0.0
+    /// - Default value is 0.37
     @IBInspectable
     public var angularVelocity: CGFloat = CLWaterWaveModel.Defaults.angularVelocity {
         didSet {
@@ -40,9 +52,14 @@ public final class CLWaterWaveView: UIView {
         }
     }
 
+    /// Animate State
+    public var isAnimating: Bool {
+        return waterWaveModel.isAnimating
+    }
+
     // MARK: Private properties
 
-    private var waterWaveModel = CLWaterWaveModel()
+    private let waterWaveModel = CLWaterWaveModel()
 
     // MARK: Initializations
 

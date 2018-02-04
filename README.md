@@ -1,6 +1,5 @@
 # CLWaterWaveView
 
-[![CI Status](http://img.shields.io/travis/Lupu Cristian/CLWaterWaveView.svg?style=flat)](https://travis-ci.org/Lupu Cristian/CLWaterWaveView)
 [![Version](https://img.shields.io/cocoapods/v/CLWaterWaveView.svg?style=flat)](http://cocoapods.org/pods/CLWaterWaveView)
 [![License](https://img.shields.io/cocoapods/l/CLWaterWaveView.svg?style=flat)](http://cocoapods.org/pods/CLWaterWaveView)
 [![Platform](https://img.shields.io/cocoapods/p/CLWaterWaveView.svg?style=flat)](http://cocoapods.org/pods/CLWaterWaveView)
