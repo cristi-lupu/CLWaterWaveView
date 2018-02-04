@@ -1,0 +1,16 @@
+PODS:
+  - CLWaterWaveView (0.1.0)
+
+DEPENDENCIES:
+  - CLWaterWaveView (from `../`)
+
+EXTERNAL SOURCES:
+  CLWaterWaveView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CLWaterWaveView: f31c1ad45e94e48c2b4205dde325c2204d361c4a
+
+PODFILE CHECKSUM: c1e963c1ffd5adddd4fc88695c69bb82e91fed5d
+
+COCOAPODS: 1.4.0
