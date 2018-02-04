@@ -12,14 +12,36 @@ public final class CLWaterWaveModel {
 
     // MARK: Public properties
 
+    /// Any class instance delegate who conforms to protocol CLWaterWaveModelDelegate
     public weak var delegate: CLWaterWaveModelDelegate?
+
+    /// Frame to calculate the wave
     public var frame: CGRect!
+
+    /// Wave depth.
+    /// - Depth range: 0.0 ... 1.0.
+    /// - Default value is 0.37
     public var depth: CGFloat!
+
+    /// Wave amplitude
+    /// - Set bigger than 0.0
+    /// - Default value is 39.0
     public var amplitude: CGFloat!
+
+    /// Wave speed
+    /// - Set bigger than 0.0
+    /// - Default value is 0.009
     public var speed: CGFloat!
+
+    /// Wave Angular Velocity
+    /// - Set bigger than 0.0
+    /// - Default value is 0.37
     public var angularVelocity: CGFloat!
 
-    // MARK: Private properities
+    /// Animate State
+    public private(set) var isAnimating = false
+
+    // MARK: Private properties
 
     private var phase: CGFloat = 0
     private var displayLink: CADisplayLink!
@@ -37,23 +59,26 @@ public final class CLWaterWaveModel {
 
     // MARK: Public methods
 
+    /// Start to calculate the path
     public func start() {
-        guard displayLink == nil else {
+        guard displayLink == nil, frame != nil, !isAnimating else {
             return
         }
 
-        guard frame != nil else {
-            return
-        }
+        isAnimating = true
 
         displayLink = CADisplayLink(target: self, selector: #selector(wave))
         displayLink.add(to: RunLoop.main, forMode: .defaultRunLoopMode)
     }
 
+
+    /// Stop to calculate
     public func stop() {
-        guard displayLink != nil else {
+        guard displayLink != nil, isAnimating else {
             return
         }
+
+        isAnimating = false
 
         displayLink.isPaused = true
         displayLink.invalidate()
@@ -70,7 +95,7 @@ public final class CLWaterWaveModel {
     }
 
     @objc private func wave() {
-        phase += speed
+        phase += abs(speed)
         let path = createWaterWavePath()
         self.delegate?.waterWaveModel(self, didUpdate: path)
     }
@@ -79,14 +104,14 @@ public final class CLWaterWaveModel {
         let path = CLWaterWavePath()
         path.lineWidth = 1
 
-        let waterHeightY = (1 - (depth > 1.0 ? 1.0 : depth)) * frame.size.height
+        let waterHeightY = (1 - (abs(depth) > 1.0 ? 1.0 : abs(depth))) * frame.size.height
 
         path.move(to: CGPoint(x: 0, y: waterHeightY))
 
         var y = waterHeightY
 
         for x in stride(from: 0 as CGFloat, to: frame.size.width, by: +1 as CGFloat) {
-            y = amplitude * sin(x / 180 * CGFloat.pi * angularVelocity + phase / CGFloat.pi * 4) + waterHeightY
+            y = abs(amplitude) * sin(x / 180 * CGFloat.pi * abs(angularVelocity) + phase / CGFloat.pi * 4) + waterHeightY
             path.addLine(to: CGPoint(x: x, y: y))
         }
 
