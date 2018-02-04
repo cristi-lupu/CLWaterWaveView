@@ -1,0 +1,6 @@
+framework module CLWaterWaveView {
+  umbrella header "CLWaterWaveView-umbrella.h"
+
+  export *
+  module * { export * }
+}
