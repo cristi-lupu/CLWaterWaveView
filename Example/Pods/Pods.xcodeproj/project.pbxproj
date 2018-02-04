@@ -13,10 +13,10 @@
 		50DB9777293AC9C0623E3E312C5D59D6 /* Pods-CLWaterWaveView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A65251981FA676E21A3F1D99BB45423 /* Pods-CLWaterWaveView_Example-dummy.m */; };
 		5523465F5E872C84C8C072F2C2D4ACCF /* CLWaterWaveView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC506A0600415CE0CF44FC5683035E14 /* CLWaterWaveView-dummy.m */; };
 		7253B876A375294A313EE56711809A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BB5BC30520272E0300B12D20 /* CLWaterWaveModel+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30120272E0300B12D20 /* CLWaterWaveModel+Defaults.swift */; };
-		BB5BC30620272E0300B12D20 /* CLWaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30220272E0300B12D20 /* CLWaterWaveView.swift */; };
-		BB5BC30720272E0300B12D20 /* CLWaterWaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30320272E0300B12D20 /* CLWaterWaveModel.swift */; };
-		BB5BC30820272E0300B12D20 /* CLWaterWaveModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30420272E0300B12D20 /* CLWaterWaveModelDelegate.swift */; };
+		BB5BC3102027309D00B12D20 /* CLWaterWaveModel+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30C2027309C00B12D20 /* CLWaterWaveModel+Defaults.swift */; };
+		BB5BC3112027309D00B12D20 /* CLWaterWaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30D2027309C00B12D20 /* CLWaterWaveModel.swift */; };
+		BB5BC3122027309D00B12D20 /* CLWaterWaveModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30E2027309C00B12D20 /* CLWaterWaveModelDelegate.swift */; };
+		BB5BC3132027309D00B12D20 /* CLWaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30F2027309C00B12D20 /* CLWaterWaveView.swift */; };
 		EE8D014A74BE9F701F0D74A9FA9F0027 /* Pods-CLWaterWaveView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AF3EFD6136981AF2F1565FCCA2E683 /* Pods-CLWaterWaveView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -49,10 +49,10 @@
 		A2DBE1FBBDEB4A13F3E8292DCB0E59D8 /* Pods-CLWaterWaveView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLWaterWaveView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AC506A0600415CE0CF44FC5683035E14 /* CLWaterWaveView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLWaterWaveView-dummy.m"; sourceTree = "<group>"; };
 		AFD475AEBFD8BDB972A37BEDD8A0192C /* Pods_CLWaterWaveView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLWaterWaveView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB5BC30120272E0300B12D20 /* CLWaterWaveModel+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLWaterWaveModel+Defaults.swift"; sourceTree = "<group>"; };
-		BB5BC30220272E0300B12D20 /* CLWaterWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveView.swift; sourceTree = "<group>"; };
-		BB5BC30320272E0300B12D20 /* CLWaterWaveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveModel.swift; sourceTree = "<group>"; };
-		BB5BC30420272E0300B12D20 /* CLWaterWaveModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveModelDelegate.swift; sourceTree = "<group>"; };
+		BB5BC30C2027309C00B12D20 /* CLWaterWaveModel+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLWaterWaveModel+Defaults.swift"; sourceTree = "<group>"; };
+		BB5BC30D2027309C00B12D20 /* CLWaterWaveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveModel.swift; sourceTree = "<group>"; };
+		BB5BC30E2027309C00B12D20 /* CLWaterWaveModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveModelDelegate.swift; sourceTree = "<group>"; };
+		BB5BC30F2027309C00B12D20 /* CLWaterWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveView.swift; sourceTree = "<group>"; };
 		D6BB0243AC85E1023E32DFD3F15DEA9A /* CLWaterWaveView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLWaterWaveView.xcconfig; sourceTree = "<group>"; };
 		E01485D099E1F932D5C9DFF9B624D20D /* CLWaterWaveView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLWaterWaveView-umbrella.h"; sourceTree = "<group>"; };
 		E708296F06E7ED160B520FC95D9A7258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -128,10 +128,7 @@
 		70801CE11E8B60669475341B63D50151 /* CLWaterWaveView */ = {
 			isa = PBXGroup;
 			children = (
-				BB5BC30220272E0300B12D20 /* CLWaterWaveView.swift */,
-				BB5BC30320272E0300B12D20 /* CLWaterWaveModel.swift */,
-				BB5BC30120272E0300B12D20 /* CLWaterWaveModel+Defaults.swift */,
-				BB5BC30420272E0300B12D20 /* CLWaterWaveModelDelegate.swift */,
+				BB5BC30A2027309C00B12D20 /* Sources */,
 				47DD2D542D812BCF7415BCB763D4AE8A /* Pod */,
 				714DA305CC2794589176343181D78208 /* Support Files */,
 			);
@@ -170,6 +167,17 @@
 				70801CE11E8B60669475341B63D50151 /* CLWaterWaveView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BB5BC30A2027309C00B12D20 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BC30F2027309C00B12D20 /* CLWaterWaveView.swift */,
+				BB5BC30D2027309C00B12D20 /* CLWaterWaveModel.swift */,
+				BB5BC30E2027309C00B12D20 /* CLWaterWaveModelDelegate.swift */,
+				BB5BC30C2027309C00B12D20 /* CLWaterWaveModel+Defaults.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -327,11 +335,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB5BC30820272E0300B12D20 /* CLWaterWaveModelDelegate.swift in Sources */,
-				BB5BC30720272E0300B12D20 /* CLWaterWaveModel.swift in Sources */,
-				BB5BC30620272E0300B12D20 /* CLWaterWaveView.swift in Sources */,
 				5523465F5E872C84C8C072F2C2D4ACCF /* CLWaterWaveView-dummy.m in Sources */,
-				BB5BC30520272E0300B12D20 /* CLWaterWaveModel+Defaults.swift in Sources */,
+				BB5BC3102027309D00B12D20 /* CLWaterWaveModel+Defaults.swift in Sources */,
+				BB5BC3122027309D00B12D20 /* CLWaterWaveModelDelegate.swift in Sources */,
+				BB5BC3112027309D00B12D20 /* CLWaterWaveModel.swift in Sources */,
+				BB5BC3132027309D00B12D20 /* CLWaterWaveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
