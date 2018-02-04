@@ -12,7 +12,6 @@
 		28F4875B6284EDF25BE2FC98D91F8F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		50DB9777293AC9C0623E3E312C5D59D6 /* Pods-CLWaterWaveView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A65251981FA676E21A3F1D99BB45423 /* Pods-CLWaterWaveView_Example-dummy.m */; };
 		5523465F5E872C84C8C072F2C2D4ACCF /* CLWaterWaveView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC506A0600415CE0CF44FC5683035E14 /* CLWaterWaveView-dummy.m */; };
-		7253B876A375294A313EE56711809A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BB5BC3102027309D00B12D20 /* CLWaterWaveModel+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30C2027309C00B12D20 /* CLWaterWaveModel+Defaults.swift */; };
 		BB5BC3112027309D00B12D20 /* CLWaterWaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30D2027309C00B12D20 /* CLWaterWaveModel.swift */; };
 		BB5BC3122027309D00B12D20 /* CLWaterWaveModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30E2027309C00B12D20 /* CLWaterWaveModelDelegate.swift */; };
@@ -35,7 +34,6 @@
 		16C39A7030E33D69BCC31CAA73F3739A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7B6BE5B7DB18BBFAE475D7D7F998B6 /* Pods-CLWaterWaveView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLWaterWaveView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2A65251981FA676E21A3F1D99BB45423 /* Pods-CLWaterWaveView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLWaterWaveView_Example-dummy.m"; sourceTree = "<group>"; };
-		39833736C6CC7A83A77817AAA06AC1CC /* Pods_CLWaterWaveView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLWaterWaveView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F45DD94E7C4EAD2AF9DB8682648A184 /* CLWaterWaveView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CLWaterWaveView.modulemap; sourceTree = "<group>"; };
 		4FA17E4F897CBFA512E09256455C4039 /* Pods-CLWaterWaveView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLWaterWaveView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6319C71CA8223E4C0EC8095D6837E047 /* Pods-CLWaterWaveView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLWaterWaveView_Example-resources.sh"; sourceTree = "<group>"; };
@@ -67,14 +65,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				277C6063DEAF2B9CCEB88C0740466E2B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50D66C7A1B90C84426BCD7971F9C9434 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7253B876A375294A313EE56711809A27 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +183,6 @@
 			children = (
 				892898D63DE3E25CF70A49C2DC8FD088 /* CLWaterWaveView.framework */,
 				AFD475AEBFD8BDB972A37BEDD8A0192C /* Pods_CLWaterWaveView_Example.framework */,
-				39833736C6CC7A83A77817AAA06AC1CC /* Pods_CLWaterWaveView_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,13 +214,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C710FE41EAA0F822AB00563395BA8E5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -250,23 +232,6 @@
 			name = CLWaterWaveView;
 			productName = CLWaterWaveView;
 			productReference = 892898D63DE3E25CF70A49C2DC8FD088 /* CLWaterWaveView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F318411177B7852222E77A4ECEDA3C59 /* Pods-CLWaterWaveView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA07ACD90C1774955FB730C3E2EFF23F /* Build configuration list for PBXNativeTarget "Pods-CLWaterWaveView_Tests" */;
-			buildPhases = (
-				E15DAA04676D9A5F0574B95AFA9721AA /* Sources */,
-				50D66C7A1B90C84426BCD7971F9C9434 /* Frameworks */,
-				9C710FE41EAA0F822AB00563395BA8E5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-CLWaterWaveView_Tests";
-			productName = "Pods-CLWaterWaveView_Tests";
-			productReference = 39833736C6CC7A83A77817AAA06AC1CC /* Pods_CLWaterWaveView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F6A1FEF0E9BBCB4A5E19C69CD6CA6821 /* Pods-CLWaterWaveView_Example */ = {
@@ -310,7 +275,6 @@
 			targets = (
 				B89FCEE6748A74C7DCC97AE1F0D68FE6 /* CLWaterWaveView */,
 				F6A1FEF0E9BBCB4A5E19C69CD6CA6821 /* Pods-CLWaterWaveView_Example */,
-				F318411177B7852222E77A4ECEDA3C59 /* Pods-CLWaterWaveView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,13 +285,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50DB9777293AC9C0623E3E312C5D59D6 /* Pods-CLWaterWaveView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E15DAA04676D9A5F0574B95AFA9721AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,69 +496,6 @@
 			};
 			name = Release;
 		};
-		9A2603CACFD96A4BD7B3144796174764 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CLWaterWaveView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CLWaterWaveView_Tests/Pods-CLWaterWaveView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CLWaterWaveView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C77D5930458D06E99A717C577374B2B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CLWaterWaveView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CLWaterWaveView_Tests/Pods-CLWaterWaveView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CLWaterWaveView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D510E34D099D35EF0819080413A9A816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F9706951E9DE8B40401873F9BF93201 /* Pods-CLWaterWaveView_Example.debug.xcconfig */;
@@ -693,15 +587,6 @@
 			buildConfigurations = (
 				D510E34D099D35EF0819080413A9A816 /* Debug */,
 				6A3823D3949F79079E0002B65FA9D74A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA07ACD90C1774955FB730C3E2EFF23F /* Build configuration list for PBXNativeTarget "Pods-CLWaterWaveView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C77D5930458D06E99A717C577374B2B5 /* Debug */,
-				9A2603CACFD96A4BD7B3144796174764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
