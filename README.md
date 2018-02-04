@@ -8,6 +8,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![Alt Text](https://github.com/cristiLupu/CLWaterWaveView/blob/master/demo.gif)
+
 ## Requirements
 
 ## Installation
