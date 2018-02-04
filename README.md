@@ -39,6 +39,11 @@ waveView.amplitude = 39.0
 waveView.speed = 0.009
 waveView.angularVelocity = 0.37
 waveView.depth = 0.37
+
+waveView.startAnimation()
+
+// to stop animation
+waveView.stopAnimation()
 ```
 
 ## Installation
