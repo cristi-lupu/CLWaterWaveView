@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		BB5BC3152027362800B12D20 /* CrossroadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC3142027362800B12D20 /* CrossroadsViewController.swift */; };
+		BB5BC3172027381200B12D20 /* InterfaceBuilderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC3162027381200B12D20 /* InterfaceBuilderExampleViewController.swift */; };
+		BB5BC31B2027387400B12D20 /* TwoWavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC31A2027387400B12D20 /* TwoWavesViewController.swift */; };
+		BB5BC31D2027428400B12D20 /* IBFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC31C2027428400B12D20 /* IBFabric.swift */; };
+		BB5BC31F2027438C00B12D20 /* WaveSliderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC31E2027438C00B12D20 /* WaveSliderHelper.swift */; };
 		DCEDE2FD030636F5CBE76AEC /* Pods_CLWaterWaveView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EFE2744802C4C4F1CF08D2 /* Pods_CLWaterWaveView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,17 +26,19 @@
 		607FACD01AFB9204008FA782 /* CLWaterWaveView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLWaterWaveView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		90EFE2744802C4C4F1CF08D2 /* Pods_CLWaterWaveView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLWaterWaveView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A501ABD14A52A351D42472 /* Pods-CLWaterWaveView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLWaterWaveView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLWaterWaveView_Example/Pods-CLWaterWaveView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A58BB3D4BBA185FBF62EF1E /* Pods-CLWaterWaveView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLWaterWaveView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLWaterWaveView_Tests/Pods-CLWaterWaveView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1A7C78F8CF8325B40925F00 /* Pods_CLWaterWaveView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLWaterWaveView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA30EE02D70D1036C9EBC121 /* Pods-CLWaterWaveView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLWaterWaveView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLWaterWaveView_Example/Pods-CLWaterWaveView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5BC3142027362800B12D20 /* CrossroadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossroadsViewController.swift; sourceTree = "<group>"; };
+		BB5BC3162027381200B12D20 /* InterfaceBuilderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceBuilderExampleViewController.swift; sourceTree = "<group>"; };
+		BB5BC31A2027387400B12D20 /* TwoWavesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWavesViewController.swift; sourceTree = "<group>"; };
+		BB5BC31C2027428400B12D20 /* IBFabric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBFabric.swift; sourceTree = "<group>"; };
+		BB5BC31E2027438C00B12D20 /* WaveSliderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveSliderHelper.swift; sourceTree = "<group>"; };
 		CEDE655809C9ED3BA83D6CEC /* Pods-CLWaterWaveView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLWaterWaveView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLWaterWaveView_Tests/Pods-CLWaterWaveView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +59,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CLWaterWaveView */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BD09B336A3DFAFDDAA9FC49B /* Pods */,
 				8E7C6F4A7F4FFE393F483C79 /* Frameworks */,
@@ -72,9 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				BB5BC322202743B000B12D20 /* Resources */,
+				BB5BC3212027439A00B12D20 /* View Controllers */,
+				BB5BC3202027438F00B12D20 /* Helpers */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -86,23 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,6 +113,33 @@
 				A1A7C78F8CF8325B40925F00 /* Pods_CLWaterWaveView_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB5BC3202027438F00B12D20 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BC31C2027428400B12D20 /* IBFabric.swift */,
+				BB5BC31E2027438C00B12D20 /* WaveSliderHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		BB5BC3212027439A00B12D20 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BC3142027362800B12D20 /* CrossroadsViewController.swift */,
+				BB5BC3162027381200B12D20 /* InterfaceBuilderExampleViewController.swift */,
+				BB5BC31A2027387400B12D20 /* TwoWavesViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BB5BC322202743B000B12D20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BD09B336A3DFAFDDAA9FC49B /* Pods */ = {
@@ -267,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				BB5BC31D2027428400B12D20 /* IBFabric.swift in Sources */,
+				BB5BC3152027362800B12D20 /* CrossroadsViewController.swift in Sources */,
+				BB5BC31F2027438C00B12D20 /* WaveSliderHelper.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				BB5BC3172027381200B12D20 /* InterfaceBuilderExampleViewController.swift in Sources */,
+				BB5BC31B2027387400B12D20 /* TwoWavesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
