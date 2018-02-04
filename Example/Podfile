@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CLWaterWaveView_Example' do
+  pod 'CLWaterWaveView', :path => '../'
+
+  target 'CLWaterWaveView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
