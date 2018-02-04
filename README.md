@@ -4,9 +4,13 @@
 [![License](https://img.shields.io/cocoapods/l/CLWaterWaveView.svg?style=flat)](http://cocoapods.org/pods/CLWaterWaveView)
 [![Platform](https://img.shields.io/cocoapods/p/CLWaterWaveView.svg?style=flat)](http://cocoapods.org/pods/CLWaterWaveView)
 
-![Alt Text](https://github.com/cristiLupu/CLWaterWaveView/blob/master/intro.gif)
+<p align="center">
+<img src="https://github.com/cristiLupu/CLWaterWaveView/blob/master/icon.png" alt="Repository Icon"/>
+</p>
 
 ## Features
+
+![Alt Text](https://github.com/cristiLupu/CLWaterWaveView/blob/master/intro.gif)
 
 * Simple configuration
 * Live editing
