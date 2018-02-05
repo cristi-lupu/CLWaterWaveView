@@ -10,7 +10,7 @@
 
 ## Features
 
-![Alt Text](https://github.com/cristiLupu/CLWaterWaveView/blob/master/intro.gif)
+![Intro Gif](https://github.com/cristiLupu/CLWaterWaveView/blob/master/intro.gif)
 
 * Simple configuration
 * Live editing
@@ -19,7 +19,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![Alt Text](https://github.com/cristiLupu/CLWaterWaveView/blob/master/demo.gif)
+![Demo Gif](https://github.com/cristiLupu/CLWaterWaveView/blob/master/demo.gif)
 
 ## Requirements
 
@@ -67,6 +67,6 @@ Lupu Cristian, lupucristiancptc@gmail.com
 
 ## License
 
-CLWaterWaveView is available under the MIT license. See the LICENSE file for more info.
+CLWaterWaveView is available under the MIT license. See the [LICENSE](https://github.com/cristiLupu/CLWaterWaveView/blob/master/LICENSE) file for more info.
 
 
