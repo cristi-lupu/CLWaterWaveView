@@ -23,25 +23,25 @@ final class InterfaceBuilderExampleViewController: UIViewController {
 
         waveView.startAnimation()
 
-        amplitudeSlider.value = WaveSliderHelper.getProcentageAmplitude(for: waveView.amplitude)
-        speedSlider.value = WaveSliderHelper.getProcentageSpeed(for: waveView.speed)
-        angularVelocitySlider.value = WaveSliderHelper.getProcentageAngularVelocity(for: waveView.angularVelocity)
-        depthSlider.value =  WaveSliderHelper.getProcentageDepth(for: waveView.depth)
+        amplitudeSlider.value = WaveSliderHelper.procentageAmplitude(for: waveView.amplitude)
+        speedSlider.value = WaveSliderHelper.procentageSpeed(for: waveView.speed)
+        angularVelocitySlider.value = WaveSliderHelper.procentageAngularVelocity(for: waveView.angularVelocity)
+        depthSlider.value =  WaveSliderHelper.procentageDepth(for: waveView.depth)
     }
     
     @IBAction private func didChangedValue(_ sender: UISlider) {
         switch sender {
         case amplitudeSlider:
-            waveView.amplitude = WaveSliderHelper.getValueAmplitude(for: sender.value)
+            waveView.amplitude = WaveSliderHelper.valueAmplitude(for: sender.value)
             print("Wave Amplitude: \(waveView.amplitude)")
         case speedSlider:
-            waveView.speed = WaveSliderHelper.getValueSpeed(for: sender.value)
+            waveView.speed = WaveSliderHelper.valueSpeed(for: sender.value)
             print("Wave Speed: \(waveView.speed)")
         case angularVelocitySlider:
-            waveView.angularVelocity = WaveSliderHelper.getValueAngularVelocity(for: sender.value)
+            waveView.angularVelocity = WaveSliderHelper.valueAngularVelocity(for: sender.value)
             print("Wave Angular Velocity: \(waveView.angularVelocity)")
         case depthSlider:
-            waveView.depth = WaveSliderHelper.getValueDepth(for: sender.value)
+            waveView.depth = WaveSliderHelper.valueDepth(for: sender.value)
             print("Wave Depth: \(waveView.depth)")
         default: break
         }

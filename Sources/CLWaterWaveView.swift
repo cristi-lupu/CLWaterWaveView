@@ -120,6 +120,36 @@ public final class CLWaterWaveView: UIView {
         waterWaveModel.stop()
     }
 
+    /**
+     Add background color animation with 2 base colors
+
+     - author: Lupu Cristian
+
+     - parameter fromColor:
+       Starting Color.
+
+     - parameter toColor:
+       Finish Color.
+
+     - parameter duration:
+       Duration of animation in seconds.
+       This specify animation duration from color to color.
+       Default is 2.0.
+    */
+    public func addBackgroundColorAnimation(from fromColor: UIColor, to toColor: UIColor, duration: CFTimeInterval = 2.0) {
+        let animation = CABasicAnimation(keyPath: "backgroundColor")
+
+        animation.duration = duration
+
+        animation.fromValue = fromColor.cgColor
+        animation.toValue = toColor.cgColor
+
+        animation.repeatCount = Float.greatestFiniteMagnitude
+        animation.autoreverses = true
+
+        layer.add(animation, forKey: "backgroundColorAnimation")
+    }
+
     // MARK: Private methods
 
     private func commonInit() {
