@@ -42,42 +42,42 @@ final class TwoWavesViewController: UIViewController {
 
         wave_2.startAnimation()
 
-        amplitudeSlider_1.value = WaveSliderHelper.getProcentageAmplitude(for: wave_1.amplitude)
-        speedSlider_1.value = WaveSliderHelper.getProcentageSpeed(for: wave_1.speed)
-        angularVelocitySlider_1.value = WaveSliderHelper.getProcentageAngularVelocity(for: wave_1.angularVelocity)
-        depthSlider_1.value =  WaveSliderHelper.getProcentageDepth(for: wave_1.depth)
+        amplitudeSlider_1.value = WaveSliderHelper.procentageAmplitude(for: wave_1.amplitude)
+        speedSlider_1.value = WaveSliderHelper.procentageSpeed(for: wave_1.speed)
+        angularVelocitySlider_1.value = WaveSliderHelper.procentageAngularVelocity(for: wave_1.angularVelocity)
+        depthSlider_1.value =  WaveSliderHelper.procentageDepth(for: wave_1.depth)
 
-        amplitudeSlider_2.value = WaveSliderHelper.getProcentageAmplitude(for: wave_2.amplitude)
-        speedSlider_2.value = WaveSliderHelper.getProcentageSpeed(for: wave_2.speed)
-        angularVelocitySlider_2.value = WaveSliderHelper.getProcentageAngularVelocity(for: wave_2.angularVelocity)
-        depthSlider_2.value =  WaveSliderHelper.getProcentageDepth(for: wave_2.depth)
+        amplitudeSlider_2.value = WaveSliderHelper.procentageAmplitude(for: wave_2.amplitude)
+        speedSlider_2.value = WaveSliderHelper.procentageSpeed(for: wave_2.speed)
+        angularVelocitySlider_2.value = WaveSliderHelper.procentageAngularVelocity(for: wave_2.angularVelocity)
+        depthSlider_2.value =  WaveSliderHelper.procentageDepth(for: wave_2.depth)
     }
 
     @IBAction private func didChangedValue(_ sender: UISlider) {
         switch sender {
         case amplitudeSlider_1:
-            wave_1.amplitude = WaveSliderHelper.getValueAmplitude(for: sender.value)
+            wave_1.amplitude = WaveSliderHelper.valueAmplitude(for: sender.value)
             print("Wave 1 Amplitude: \(wave_1.amplitude)")
         case speedSlider_1:
-            wave_1.speed = WaveSliderHelper.getValueSpeed(for: sender.value)
+            wave_1.speed = WaveSliderHelper.valueSpeed(for: sender.value)
             print("Wave 1 Speed: \(wave_1.speed)")
         case angularVelocitySlider_1:
-            wave_1.angularVelocity = WaveSliderHelper.getValueAngularVelocity(for: sender.value)
+            wave_1.angularVelocity = WaveSliderHelper.valueAngularVelocity(for: sender.value)
             print("Wave 1 Angular Velocity: \(wave_1.angularVelocity)")
         case depthSlider_1:
-            wave_1.depth = WaveSliderHelper.getValueDepth(for: sender.value)
+            wave_1.depth = WaveSliderHelper.valueDepth(for: sender.value)
             print("Wave 1 Depth: \(wave_1.depth)")
         case amplitudeSlider_2:
-            wave_2.amplitude = WaveSliderHelper.getValueAmplitude(for: sender.value)
+            wave_2.amplitude = WaveSliderHelper.valueAmplitude(for: sender.value)
             print("Wave 2 Amplitude: \(wave_2.amplitude)")
         case speedSlider_2:
-            wave_2.speed = WaveSliderHelper.getValueSpeed(for: sender.value)
+            wave_2.speed = WaveSliderHelper.valueSpeed(for: sender.value)
             print("Wave 2 Speed: \(wave_2.speed)")
         case angularVelocitySlider_2:
-            wave_2.angularVelocity = WaveSliderHelper.getValueAngularVelocity(for: sender.value)
+            wave_2.angularVelocity = WaveSliderHelper.valueAngularVelocity(for: sender.value)
             print("Wave 2 Angular Velocity: \(wave_2.angularVelocity)")
         case depthSlider_2:
-            wave_2.depth = WaveSliderHelper.getValueDepth(for: sender.value)
+            wave_2.depth = WaveSliderHelper.valueDepth(for: sender.value)
             print("Wave 2 Depth: \(wave_2.depth)")
         default: break
         }
