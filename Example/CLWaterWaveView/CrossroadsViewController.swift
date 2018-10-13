@@ -2,8 +2,8 @@
 //  CrossroadsViewController.swift
 //  CLWaterWaveView_Example
 //
-//  Created by Lupu Cristian on 2/4/18.
-//  Copyright © 2018 Lupu Cristian. All rights reserved.
+//  Created by Cristian Lupu on 2/4/18.
+//  Copyright © 2018 Cristian Lupu. All rights reserved.
 //
 
 import Foundation
@@ -14,6 +14,10 @@ final class CrossroadsViewController: UIViewController {
     @IBOutlet weak private var tableView: UITableView!
 
     private let cellReuseId = "Demo Cell"
+
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

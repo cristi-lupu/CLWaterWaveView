@@ -2,8 +2,8 @@
 //  CLWaterWaveView.swift
 //  Wave
 //
-//  Created by Lupu Cristian on 12/9/17.
-//  Copyright © 2017 Lupu Cristian. All rights reserved.
+//  Created by Cristian Lupu on 12/9/17.
+//  Copyright © 2018 Cristian Lupu. All rights reserved.
 //
 
 import UIKit
@@ -14,8 +14,6 @@ public final class CLWaterWaveView: UIView {
 
     /**
      Wave depth.
-
-     - author: Lupu Cristian
 
      - Depth range: 0.0 ... 1.0.
      - Default value is 0.37
@@ -30,8 +28,6 @@ public final class CLWaterWaveView: UIView {
     /**
      Wave amplitude
 
-     - author: Lupu Cristian
-
      - Set bigger than 0.0
      - Default value is 39.0
     */
@@ -44,8 +40,6 @@ public final class CLWaterWaveView: UIView {
 
     /**
      Wave speed
-
-     - author: Lupu Cristian
 
      - Set bigger than 0.0
      - Default value is 0.009
@@ -60,8 +54,6 @@ public final class CLWaterWaveView: UIView {
     /**
      Wave Angular Velocity
 
-     - author: Lupu Cristian
-
      - Set bigger than 0.0
      - Default value is 0.37
     */
@@ -74,9 +66,6 @@ public final class CLWaterWaveView: UIView {
 
     /**
      Animate State
-
-     - author: Lupu Cristian
-     
     */
     public var isAnimating: Bool {
         return waterWaveModel.isAnimating
@@ -156,15 +145,12 @@ public final class CLWaterWaveView: UIView {
         waterWaveModel.frame = self.frame
         waterWaveModel.delegate = self
     }
-    
 }
 
 extension CLWaterWaveView: CLWaterWaveModelDelegate {
-
     public func waterWaveModel(_ waterWaveModel: CLWaterWaveModel, didUpdate wavePath: UIBezierPath) {
         let shape = CAShapeLayer()
         shape.path = wavePath.cgPath
         self.layer.mask = shape
     }
-
 }
