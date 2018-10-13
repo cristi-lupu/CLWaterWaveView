@@ -2,15 +2,14 @@
 //  WaveSliderHelper.swift
 //  CLWaterWaveView_Example
 //
-//  Created by Lupu Cristian on 2/4/18.
-//  Copyright © 2018 CocoaPods. All rights reserved.
+//  Created by Cristian Lupu on 2/4/18.
+//  Copyright © 2018 Cristian Lupu. All rights reserved.
 //
 
 import Foundation
 import CoreGraphics
 
 enum WaveSliderHelper {
-
     static func procentageAmplitude(for value: CGFloat) -> Float {
         return Float((value - 20) / 50)
     }
@@ -42,5 +41,4 @@ enum WaveSliderHelper {
     static func valueDepth(for value: Float) -> CGFloat {
         return CGFloat((value * 1) + 0)
     }
-
 }

@@ -2,14 +2,13 @@
 //  CLWaterWaveModel.swift
 //  Wave
 //
-//  Created by Lupu Cristian on 12/9/17.
-//  Copyright © 2017 Lupu Cristian. All rights reserved.
+//  Created by Cristian Lupu on 12/9/17.
+//  Copyright © 2018 Cristian Lupu. All rights reserved.
 //
 
 import UIKit
 
 public final class CLWaterWaveModel {
-
     // MARK: Public properties
 
     /// Any class instance delegate who conforms to protocol CLWaterWaveModelDelegate
@@ -68,7 +67,7 @@ public final class CLWaterWaveModel {
         isAnimating = true
 
         displayLink = CADisplayLink(target: self, selector: #selector(wave))
-        displayLink.add(to: RunLoop.main, forMode: .defaultRunLoopMode)
+        displayLink.add(to: .main, forMode: .default)
     }
 
 
@@ -122,5 +121,4 @@ public final class CLWaterWaveModel {
 
         return path
     }
-
 }

@@ -1,22 +1,24 @@
 {
   "name": "CLWaterWaveView",
-  "version": "0.1.0",
-  "summary": "A short description of CLWaterWaveView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Lupu Cristian/CLWaterWaveView",
+  "version": "1.2",
+  "summary": "Water Wave Effect on iOS",
+  "description": "A UIView what able to show water wave effect",
+  "homepage": "https://github.com/cristi-lupu/CLWaterWaveView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Lupu Cristian": "lupucristiancptc@gmail.com"
+    "Cristian Lupu": "lupucristiancptc@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Lupu Cristian/CLWaterWaveView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/cristiLupu/CLWaterWaveView.git",
+    "tag": "1.2"
   },
+  "social_media_url": "https://twitter.com/LupuCrist",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "CLWaterWaveView/Classes/**/*"
+  "swift_version": "4.2",
+  "source_files": "Sources/**/*"
 }

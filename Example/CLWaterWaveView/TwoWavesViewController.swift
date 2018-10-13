@@ -2,8 +2,8 @@
 //  TwoWavesViewController.swift
 //  CLWaterWaveView_Example
 //
-//  Created by Lupu Cristian on 2/4/18.
-//  Copyright © 2018 Lupu Cristian. All rights reserved.
+//  Created by Cristian Lupu on 2/4/18.
+//  Copyright © 2018 Cristian Lupu. All rights reserved.
 //
 
 import Foundation
@@ -24,6 +24,10 @@ final class TwoWavesViewController: UIViewController {
     @IBOutlet weak private var speedSlider_2: UISlider!
     @IBOutlet weak private var angularVelocitySlider_2: UISlider!
     @IBOutlet weak private var depthSlider_2: UISlider!
+
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
