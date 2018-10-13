@@ -7,223 +7,216 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		211DE458E0489AC8601657C877631A33 /* CLWaterWaveView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01485D099E1F932D5C9DFF9B624D20D /* CLWaterWaveView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		277C6063DEAF2B9CCEB88C0740466E2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		28F4875B6284EDF25BE2FC98D91F8F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		50DB9777293AC9C0623E3E312C5D59D6 /* Pods-CLWaterWaveView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A65251981FA676E21A3F1D99BB45423 /* Pods-CLWaterWaveView_Example-dummy.m */; };
-		5523465F5E872C84C8C072F2C2D4ACCF /* CLWaterWaveView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC506A0600415CE0CF44FC5683035E14 /* CLWaterWaveView-dummy.m */; };
-		BB5BC3102027309D00B12D20 /* CLWaterWaveModel+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30C2027309C00B12D20 /* CLWaterWaveModel+Defaults.swift */; };
-		BB5BC3112027309D00B12D20 /* CLWaterWaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30D2027309C00B12D20 /* CLWaterWaveModel.swift */; };
-		BB5BC3122027309D00B12D20 /* CLWaterWaveModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30E2027309C00B12D20 /* CLWaterWaveModelDelegate.swift */; };
-		BB5BC3132027309D00B12D20 /* CLWaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC30F2027309C00B12D20 /* CLWaterWaveView.swift */; };
-		EE8D014A74BE9F701F0D74A9FA9F0027 /* Pods-CLWaterWaveView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AF3EFD6136981AF2F1565FCCA2E683 /* Pods-CLWaterWaveView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B04F4AB4A8D00E44021F44BCB54E22 /* CLWaterWaveView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E20911826C713AB11EE9FE18CEEED7 /* CLWaterWaveView-dummy.m */; };
+		46602F8F1CE638B6CA8924C81B364AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5D602BB995B8779B08241DB36BCBDFE5 /* CLWaterWaveModel+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B980720C704F39947D76C65E3CA7C /* CLWaterWaveModel+Defaults.swift */; };
+		71A751E6D4DEB15A2DABE555BD0B06C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		80E643A3CEC3BB4AF5B775320F957A88 /* CLWaterWaveView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E97F7F25D282E72C0EEB177EB3E60BE /* CLWaterWaveView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A037E4611A11073693006AF57B246584 /* CLWaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A81CA1ACAD6EFAF7F4A57EDF94DB16 /* CLWaterWaveView.swift */; };
+		A6CF25958F2CADBD9E46EA73792D7DE4 /* CLWaterWaveModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E671042FDC7E6E74A1175E70ED2F /* CLWaterWaveModelDelegate.swift */; };
+		BB26BEAC41E80B154FC7E4722B0D24A5 /* Pods-CLWaterWaveView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60994BBC0BB759BDADC76DED43345736 /* Pods-CLWaterWaveView_Example-dummy.m */; };
+		CE4F2589B07499717D7E040DA61182F7 /* CLWaterWaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E81019650B12F0E9BAD512CE721FD /* CLWaterWaveModel.swift */; };
+		FAB00A64A9E0B6C53D403759E2A6DC4F /* Pods-CLWaterWaveView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D705B048C68B35CB14D7CA0B1CEC093 /* Pods-CLWaterWaveView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC2CAFF0B35FDE071122FC89852F4C6C /* PBXContainerItemProxy */ = {
+		2EC385ECEC7FFD93D1C1D997D0F4517C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B89FCEE6748A74C7DCC97AE1F0D68FE6;
+			remoteGlobalIDString = 03BF0B15ADCA0DBE240E1AC8F7CC75E7;
 			remoteInfo = CLWaterWaveView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1098F5C39501C861136D248AA18BA697 /* Pods-CLWaterWaveView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLWaterWaveView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		16C39A7030E33D69BCC31CAA73F3739A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F7B6BE5B7DB18BBFAE475D7D7F998B6 /* Pods-CLWaterWaveView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLWaterWaveView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2A65251981FA676E21A3F1D99BB45423 /* Pods-CLWaterWaveView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLWaterWaveView_Example-dummy.m"; sourceTree = "<group>"; };
-		3F45DD94E7C4EAD2AF9DB8682648A184 /* CLWaterWaveView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CLWaterWaveView.modulemap; sourceTree = "<group>"; };
-		4FA17E4F897CBFA512E09256455C4039 /* Pods-CLWaterWaveView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLWaterWaveView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6319C71CA8223E4C0EC8095D6837E047 /* Pods-CLWaterWaveView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLWaterWaveView_Example-resources.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F0F0CF71F5C1370B2FD7F3CA55A864E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F9706951E9DE8B40401873F9BF93201 /* Pods-CLWaterWaveView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLWaterWaveView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		72904637229AF983176331298A8739E3 /* CLWaterWaveView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CLWaterWaveView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		75AF3EFD6136981AF2F1565FCCA2E683 /* Pods-CLWaterWaveView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLWaterWaveView_Example-umbrella.h"; sourceTree = "<group>"; };
-		892898D63DE3E25CF70A49C2DC8FD088 /* CLWaterWaveView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLWaterWaveView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2DBE1FBBDEB4A13F3E8292DCB0E59D8 /* Pods-CLWaterWaveView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLWaterWaveView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AC506A0600415CE0CF44FC5683035E14 /* CLWaterWaveView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLWaterWaveView-dummy.m"; sourceTree = "<group>"; };
-		AFD475AEBFD8BDB972A37BEDD8A0192C /* Pods_CLWaterWaveView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLWaterWaveView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB5BC30C2027309C00B12D20 /* CLWaterWaveModel+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLWaterWaveModel+Defaults.swift"; sourceTree = "<group>"; };
-		BB5BC30D2027309C00B12D20 /* CLWaterWaveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveModel.swift; sourceTree = "<group>"; };
-		BB5BC30E2027309C00B12D20 /* CLWaterWaveModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveModelDelegate.swift; sourceTree = "<group>"; };
-		BB5BC30F2027309C00B12D20 /* CLWaterWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLWaterWaveView.swift; sourceTree = "<group>"; };
-		D6BB0243AC85E1023E32DFD3F15DEA9A /* CLWaterWaveView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLWaterWaveView.xcconfig; sourceTree = "<group>"; };
-		E01485D099E1F932D5C9DFF9B624D20D /* CLWaterWaveView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLWaterWaveView-umbrella.h"; sourceTree = "<group>"; };
-		E708296F06E7ED160B520FC95D9A7258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EC24D6085A8969D3E0B77F2D86E8192A /* Pods-CLWaterWaveView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CLWaterWaveView_Example.modulemap"; sourceTree = "<group>"; };
-		ED99B328F6EF494E06C379D83234416D /* CLWaterWaveView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLWaterWaveView-prefix.pch"; sourceTree = "<group>"; };
-		F32847042CFCF84AEFB234C1EF86530E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		097460269D96C7AFB1BE9A5415BA9B21 /* Pods-CLWaterWaveView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLWaterWaveView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		09F03A8C6A3E908D3B0BF541712D7A77 /* CLWaterWaveView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLWaterWaveView.xcconfig; sourceTree = "<group>"; };
+		0E97F7F25D282E72C0EEB177EB3E60BE /* CLWaterWaveView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLWaterWaveView-umbrella.h"; sourceTree = "<group>"; };
+		13ADC007A558062DBEFDFBA38F34E4C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		18A81CA1ACAD6EFAF7F4A57EDF94DB16 /* CLWaterWaveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLWaterWaveView.swift; path = Sources/CLWaterWaveView.swift; sourceTree = "<group>"; };
+		29CD7BB5FB683777D3E735604FB2C679 /* Pods-CLWaterWaveView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLWaterWaveView_Example-resources.sh"; sourceTree = "<group>"; };
+		2DF53290918B86F6AC8227F38791E8F6 /* Pods-CLWaterWaveView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLWaterWaveView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		371147360A3096CC91E2B795D6694CEC /* Pods-CLWaterWaveView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLWaterWaveView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3D705B048C68B35CB14D7CA0B1CEC093 /* Pods-CLWaterWaveView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLWaterWaveView_Example-umbrella.h"; sourceTree = "<group>"; };
+		40EE2AA165C38460CDF210C2537F612C /* Pods-CLWaterWaveView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLWaterWaveView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F08E671042FDC7E6E74A1175E70ED2F /* CLWaterWaveModelDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLWaterWaveModelDelegate.swift; path = Sources/CLWaterWaveModelDelegate.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C655953CDAC5FF3B41A644A22CDF2D7 /* Pods-CLWaterWaveView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CLWaterWaveView_Example.modulemap"; sourceTree = "<group>"; };
+		60994BBC0BB759BDADC76DED43345736 /* Pods-CLWaterWaveView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLWaterWaveView_Example-dummy.m"; sourceTree = "<group>"; };
+		6E7B980720C704F39947D76C65E3CA7C /* CLWaterWaveModel+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLWaterWaveModel+Defaults.swift"; path = "Sources/CLWaterWaveModel+Defaults.swift"; sourceTree = "<group>"; };
+		84731A564B170938C2B9DE7D580AD8AB /* Pods-CLWaterWaveView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLWaterWaveView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966FC8D4284C8B9FF005A4B876E9177B /* CLWaterWaveView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLWaterWaveView.framework; path = CLWaterWaveView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2E81019650B12F0E9BAD512CE721FD /* CLWaterWaveModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLWaterWaveModel.swift; path = Sources/CLWaterWaveModel.swift; sourceTree = "<group>"; };
+		AC0BC82ADF1A5A2C2669E661E533F1AC /* CLWaterWaveView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLWaterWaveView-prefix.pch"; sourceTree = "<group>"; };
+		B0E20911826C713AB11EE9FE18CEEED7 /* CLWaterWaveView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLWaterWaveView-dummy.m"; sourceTree = "<group>"; };
+		D9753D4359A52C24A9EDC90E6F16A7B8 /* CLWaterWaveView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLWaterWaveView.modulemap; sourceTree = "<group>"; };
+		E064B703C3C00AD9C40FCF53C897B0E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D05ABAA587F5294E24B03A5A607A11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5D88EF976743EE6EB921E5CFA3C5F9 /* CLWaterWaveView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CLWaterWaveView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ECE852B8E2C5486436DB300EAB0F9F60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ED903F98C3C041FF1F49FDE60FEB315D /* Pods_CLWaterWaveView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CLWaterWaveView_Example.framework; path = "Pods-CLWaterWaveView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15CD717F4EE5FBE40EC31230C76D3673 /* Frameworks */ = {
+		5F7371AF3E792510F477C069A3BE4F76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277C6063DEAF2B9CCEB88C0740466E2B /* Foundation.framework in Frameworks */,
+				46602F8F1CE638B6CA8924C81B364AEB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA418AE1FDEABCE15DCA8D195E0478F5 /* Frameworks */ = {
+		83B785B54AEDB05EA10D7CDCA865C87D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F4875B6284EDF25BE2FC98D91F8F65 /* Foundation.framework in Frameworks */,
+				71A751E6D4DEB15A2DABE555BD0B06C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14462C915BEED683FE5F8C58ACA65A6D /* Targets Support Files */ = {
+		048C57367FD48B4B69E1BC01AB0A1C72 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A015F8F589AA7D4BA0C47C3D4AAC145 /* Pods-CLWaterWaveView_Example */,
+				D9753D4359A52C24A9EDC90E6F16A7B8 /* CLWaterWaveView.modulemap */,
+				09F03A8C6A3E908D3B0BF541712D7A77 /* CLWaterWaveView.xcconfig */,
+				B0E20911826C713AB11EE9FE18CEEED7 /* CLWaterWaveView-dummy.m */,
+				AC0BC82ADF1A5A2C2669E661E533F1AC /* CLWaterWaveView-prefix.pch */,
+				0E97F7F25D282E72C0EEB177EB3E60BE /* CLWaterWaveView-umbrella.h */,
+				E8D05ABAA587F5294E24B03A5A607A11 /* Info.plist */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CLWaterWaveView";
 			sourceTree = "<group>";
 		};
-		3A015F8F589AA7D4BA0C47C3D4AAC145 /* Pods-CLWaterWaveView_Example */ = {
+		2703D607C5889357F1352E9C05C7733A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F0F0CF71F5C1370B2FD7F3CA55A864E /* Info.plist */,
-				EC24D6085A8969D3E0B77F2D86E8192A /* Pods-CLWaterWaveView_Example.modulemap */,
-				4FA17E4F897CBFA512E09256455C4039 /* Pods-CLWaterWaveView_Example-acknowledgements.markdown */,
-				1F7B6BE5B7DB18BBFAE475D7D7F998B6 /* Pods-CLWaterWaveView_Example-acknowledgements.plist */,
-				2A65251981FA676E21A3F1D99BB45423 /* Pods-CLWaterWaveView_Example-dummy.m */,
-				A2DBE1FBBDEB4A13F3E8292DCB0E59D8 /* Pods-CLWaterWaveView_Example-frameworks.sh */,
-				6319C71CA8223E4C0EC8095D6837E047 /* Pods-CLWaterWaveView_Example-resources.sh */,
-				75AF3EFD6136981AF2F1565FCCA2E683 /* Pods-CLWaterWaveView_Example-umbrella.h */,
-				6F9706951E9DE8B40401873F9BF93201 /* Pods-CLWaterWaveView_Example.debug.xcconfig */,
-				1098F5C39501C861136D248AA18BA697 /* Pods-CLWaterWaveView_Example.release.xcconfig */,
+				5B40F10D3D4AAC0E13EB201E81779926 /* CLWaterWaveView */,
 			);
-			name = "Pods-CLWaterWaveView_Example";
-			path = "Target Support Files/Pods-CLWaterWaveView_Example";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		47DD2D542D812BCF7415BCB763D4AE8A /* Pod */ = {
+		511E9BC42CF35A1294F02FD6825449AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72904637229AF983176331298A8739E3 /* CLWaterWaveView.podspec */,
-				E708296F06E7ED160B520FC95D9A7258 /* LICENSE */,
-				F32847042CFCF84AEFB234C1EF86530E /* README.md */,
+				966FC8D4284C8B9FF005A4B876E9177B /* CLWaterWaveView.framework */,
+				ED903F98C3C041FF1F49FDE60FEB315D /* Pods_CLWaterWaveView_Example.framework */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		70801CE11E8B60669475341B63D50151 /* CLWaterWaveView */ = {
+		5B40F10D3D4AAC0E13EB201E81779926 /* CLWaterWaveView */ = {
 			isa = PBXGroup;
 			children = (
-				BB5BC30A2027309C00B12D20 /* Sources */,
-				47DD2D542D812BCF7415BCB763D4AE8A /* Pod */,
-				714DA305CC2794589176343181D78208 /* Support Files */,
+				9F2E81019650B12F0E9BAD512CE721FD /* CLWaterWaveModel.swift */,
+				6E7B980720C704F39947D76C65E3CA7C /* CLWaterWaveModel+Defaults.swift */,
+				4F08E671042FDC7E6E74A1175E70ED2F /* CLWaterWaveModelDelegate.swift */,
+				18A81CA1ACAD6EFAF7F4A57EDF94DB16 /* CLWaterWaveView.swift */,
+				5D0BECFAFCDC57EEB9CB7B51CF1D8A0A /* Pod */,
+				048C57367FD48B4B69E1BC01AB0A1C72 /* Support Files */,
 			);
 			name = CLWaterWaveView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		714DA305CC2794589176343181D78208 /* Support Files */ = {
+		5D0BECFAFCDC57EEB9CB7B51CF1D8A0A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3F45DD94E7C4EAD2AF9DB8682648A184 /* CLWaterWaveView.modulemap */,
-				D6BB0243AC85E1023E32DFD3F15DEA9A /* CLWaterWaveView.xcconfig */,
-				AC506A0600415CE0CF44FC5683035E14 /* CLWaterWaveView-dummy.m */,
-				ED99B328F6EF494E06C379D83234416D /* CLWaterWaveView-prefix.pch */,
-				E01485D099E1F932D5C9DFF9B624D20D /* CLWaterWaveView-umbrella.h */,
-				16C39A7030E33D69BCC31CAA73F3739A /* Info.plist */,
+				EA5D88EF976743EE6EB921E5CFA3C5F9 /* CLWaterWaveView.podspec */,
+				13ADC007A558062DBEFDFBA38F34E4C7 /* LICENSE */,
+				ECE852B8E2C5486436DB300EAB0F9F60 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CLWaterWaveView";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				90B758A9CDEED144E67B633C1C6E6B4D /* Development Pods */,
+				2703D607C5889357F1352E9C05C7733A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CEF477E0A86B17C2EDF553DC9DE1BF73 /* Products */,
-				14462C915BEED683FE5F8C58ACA65A6D /* Targets Support Files */,
+				511E9BC42CF35A1294F02FD6825449AF /* Products */,
+				7F61B785A34D698521CB044BDDCD9852 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		90B758A9CDEED144E67B633C1C6E6B4D /* Development Pods */ = {
+		7F61B785A34D698521CB044BDDCD9852 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				70801CE11E8B60669475341B63D50151 /* CLWaterWaveView */,
+				984FFE7E580B378705E5001BDC4C7DAD /* Pods-CLWaterWaveView_Example */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BB5BC30A2027309C00B12D20 /* Sources */ = {
+		984FFE7E580B378705E5001BDC4C7DAD /* Pods-CLWaterWaveView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				BB5BC30F2027309C00B12D20 /* CLWaterWaveView.swift */,
-				BB5BC30D2027309C00B12D20 /* CLWaterWaveModel.swift */,
-				BB5BC30E2027309C00B12D20 /* CLWaterWaveModelDelegate.swift */,
-				BB5BC30C2027309C00B12D20 /* CLWaterWaveModel+Defaults.swift */,
+				E064B703C3C00AD9C40FCF53C897B0E8 /* Info.plist */,
+				5C655953CDAC5FF3B41A644A22CDF2D7 /* Pods-CLWaterWaveView_Example.modulemap */,
+				2DF53290918B86F6AC8227F38791E8F6 /* Pods-CLWaterWaveView_Example-acknowledgements.markdown */,
+				097460269D96C7AFB1BE9A5415BA9B21 /* Pods-CLWaterWaveView_Example-acknowledgements.plist */,
+				60994BBC0BB759BDADC76DED43345736 /* Pods-CLWaterWaveView_Example-dummy.m */,
+				371147360A3096CC91E2B795D6694CEC /* Pods-CLWaterWaveView_Example-frameworks.sh */,
+				29CD7BB5FB683777D3E735604FB2C679 /* Pods-CLWaterWaveView_Example-resources.sh */,
+				3D705B048C68B35CB14D7CA0B1CEC093 /* Pods-CLWaterWaveView_Example-umbrella.h */,
+				84731A564B170938C2B9DE7D580AD8AB /* Pods-CLWaterWaveView_Example.debug.xcconfig */,
+				40EE2AA165C38460CDF210C2537F612C /* Pods-CLWaterWaveView_Example.release.xcconfig */,
 			);
-			path = Sources;
+			name = "Pods-CLWaterWaveView_Example";
+			path = "Target Support Files/Pods-CLWaterWaveView_Example";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CEF477E0A86B17C2EDF553DC9DE1BF73 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				892898D63DE3E25CF70A49C2DC8FD088 /* CLWaterWaveView.framework */,
-				AFD475AEBFD8BDB972A37BEDD8A0192C /* Pods_CLWaterWaveView_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BB423172EFD5F3385E6FBC9241461CA /* Headers */ = {
+		4BA646168A2E931E67F190A3EA59AC8C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8D014A74BE9F701F0D74A9FA9F0027 /* Pods-CLWaterWaveView_Example-umbrella.h in Headers */,
+				80E643A3CEC3BB4AF5B775320F957A88 /* CLWaterWaveView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		579D25B9F22B9E0BEC2595802C356834 /* Headers */ = {
+		7F5C2F518C32446C96D285B9825BC819 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211DE458E0489AC8601657C877631A33 /* CLWaterWaveView-umbrella.h in Headers */,
+				FAB00A64A9E0B6C53D403759E2A6DC4F /* Pods-CLWaterWaveView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B89FCEE6748A74C7DCC97AE1F0D68FE6 /* CLWaterWaveView */ = {
+		03BF0B15ADCA0DBE240E1AC8F7CC75E7 /* CLWaterWaveView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 610BD09FBEBC33115A3FDC16A0E30293 /* Build configuration list for PBXNativeTarget "CLWaterWaveView" */;
+			buildConfigurationList = 455004447F270E939B9E67B85F5BE2CB /* Build configuration list for PBXNativeTarget "CLWaterWaveView" */;
 			buildPhases = (
-				EC1A3A2E833BA048C1F6B65B3658C83A /* Sources */,
-				AA418AE1FDEABCE15DCA8D195E0478F5 /* Frameworks */,
-				579D25B9F22B9E0BEC2595802C356834 /* Headers */,
+				4BA646168A2E931E67F190A3EA59AC8C /* Headers */,
+				24C02DB1277EA90D9D8B161A1A6C37DC /* Sources */,
+				5F7371AF3E792510F477C069A3BE4F76 /* Frameworks */,
+				E01778A8C9D9F4C40DB243B3526EB7AC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -231,25 +224,26 @@
 			);
 			name = CLWaterWaveView;
 			productName = CLWaterWaveView;
-			productReference = 892898D63DE3E25CF70A49C2DC8FD088 /* CLWaterWaveView.framework */;
+			productReference = 966FC8D4284C8B9FF005A4B876E9177B /* CLWaterWaveView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F6A1FEF0E9BBCB4A5E19C69CD6CA6821 /* Pods-CLWaterWaveView_Example */ = {
+		1B949AE31CC81AF446F97F4FC5CEA437 /* Pods-CLWaterWaveView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEF615094AE160316691DE4ED73F00CD /* Build configuration list for PBXNativeTarget "Pods-CLWaterWaveView_Example" */;
+			buildConfigurationList = 575409544F0331EDDA659A2C3E4129DA /* Build configuration list for PBXNativeTarget "Pods-CLWaterWaveView_Example" */;
 			buildPhases = (
-				0EA6F7F45A816FB833FE5996EC0799CD /* Sources */,
-				15CD717F4EE5FBE40EC31230C76D3673 /* Frameworks */,
-				4BB423172EFD5F3385E6FBC9241461CA /* Headers */,
+				7F5C2F518C32446C96D285B9825BC819 /* Headers */,
+				CDEF853866A6D208EEB5C4D3D8ECADFE /* Sources */,
+				83B785B54AEDB05EA10D7CDCA865C87D /* Frameworks */,
+				6A66977A96B1BDECA5908C625CB3EEDD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BA2A4DE52DD92B9E36FC95518C2BCB9 /* PBXTargetDependency */,
+				AC5737429A96076C1AA0F163E2FA2344 /* PBXTargetDependency */,
 			);
 			name = "Pods-CLWaterWaveView_Example";
 			productName = "Pods-CLWaterWaveView_Example";
-			productReference = AFD475AEBFD8BDB972A37BEDD8A0192C /* Pods_CLWaterWaveView_Example.framework */;
+			productReference = ED903F98C3C041FF1F49FDE60FEB315D /* Pods_CLWaterWaveView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -258,7 +252,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -269,52 +263,69 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CEF477E0A86B17C2EDF553DC9DE1BF73 /* Products */;
+			productRefGroup = 511E9BC42CF35A1294F02FD6825449AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B89FCEE6748A74C7DCC97AE1F0D68FE6 /* CLWaterWaveView */,
-				F6A1FEF0E9BBCB4A5E19C69CD6CA6821 /* Pods-CLWaterWaveView_Example */,
+				03BF0B15ADCA0DBE240E1AC8F7CC75E7 /* CLWaterWaveView */,
+				1B949AE31CC81AF446F97F4FC5CEA437 /* Pods-CLWaterWaveView_Example */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		0EA6F7F45A816FB833FE5996EC0799CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		6A66977A96B1BDECA5908C625CB3EEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DB9777293AC9C0623E3E312C5D59D6 /* Pods-CLWaterWaveView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC1A3A2E833BA048C1F6B65B3658C83A /* Sources */ = {
+		E01778A8C9D9F4C40DB243B3526EB7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C02DB1277EA90D9D8B161A1A6C37DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5523465F5E872C84C8C072F2C2D4ACCF /* CLWaterWaveView-dummy.m in Sources */,
-				BB5BC3102027309D00B12D20 /* CLWaterWaveModel+Defaults.swift in Sources */,
-				BB5BC3122027309D00B12D20 /* CLWaterWaveModelDelegate.swift in Sources */,
-				BB5BC3112027309D00B12D20 /* CLWaterWaveModel.swift in Sources */,
-				BB5BC3132027309D00B12D20 /* CLWaterWaveView.swift in Sources */,
+				5D602BB995B8779B08241DB36BCBDFE5 /* CLWaterWaveModel+Defaults.swift in Sources */,
+				CE4F2589B07499717D7E040DA61182F7 /* CLWaterWaveModel.swift in Sources */,
+				A6CF25958F2CADBD9E46EA73792D7DE4 /* CLWaterWaveModelDelegate.swift in Sources */,
+				43B04F4AB4A8D00E44021F44BCB54E22 /* CLWaterWaveView-dummy.m in Sources */,
+				A037E4611A11073693006AF57B246584 /* CLWaterWaveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEF853866A6D208EEB5C4D3D8ECADFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB26BEAC41E80B154FC7E4722B0D24A5 /* Pods-CLWaterWaveView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BA2A4DE52DD92B9E36FC95518C2BCB9 /* PBXTargetDependency */ = {
+		AC5737429A96076C1AA0F163E2FA2344 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CLWaterWaveView;
-			target = B89FCEE6748A74C7DCC97AE1F0D68FE6 /* CLWaterWaveView */;
-			targetProxy = DC2CAFF0B35FDE071122FC89852F4C6C /* PBXContainerItemProxy */;
+			target = 03BF0B15ADCA0DBE240E1AC8F7CC75E7 /* CLWaterWaveView */;
+			targetProxy = 2EC385ECEC7FFD93D1C1D997D0F4517C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		225D2CEB96D51F03DD6C68FEE8A4CD48 /* Release */ = {
+		002B3F21936A0EF4D489A1CADC2308A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6BB0243AC85E1023E32DFD3F15DEA9A /* CLWaterWaveView.xcconfig */;
+			baseConfigurationReference = 09F03A8C6A3E908D3B0BF541712D7A77 /* CLWaterWaveView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -328,15 +339,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CLWaterWaveView/CLWaterWaveView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CLWaterWaveView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CLWaterWaveView/CLWaterWaveView.modulemap";
+				PRODUCT_MODULE_NAME = CLWaterWaveView;
 				PRODUCT_NAME = CLWaterWaveView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -344,7 +357,42 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		16F9D979EA7F77E2462B3EF7E16EF5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84731A564B170938C2B9DE7D580AD8AB /* Pods-CLWaterWaveView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CLWaterWaveView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CLWaterWaveView_Example/Pods-CLWaterWaveView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,6 +402,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -375,6 +424,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -395,53 +445,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6A3823D3949F79079E0002B65FA9D74A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1098F5C39501C861136D248AA18BA697 /* Pods-CLWaterWaveView_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CLWaterWaveView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CLWaterWaveView_Example/Pods-CLWaterWaveView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CLWaterWaveView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -451,6 +466,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -472,6 +488,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -489,21 +506,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D510E34D099D35EF0819080413A9A816 /* Debug */ = {
+		E70402E9A4CE375A0B4A21FD594CBF34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F9706951E9DE8B40401873F9BF93201 /* Pods-CLWaterWaveView_Example.debug.xcconfig */;
+			baseConfigurationReference = 40EE2AA165C38460CDF210C2537F612C /* Pods-CLWaterWaveView_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -515,7 +531,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CLWaterWaveView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CLWaterWaveView_Example/Pods-CLWaterWaveView_Example.modulemap";
@@ -523,20 +539,21 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CLWaterWaveView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		D57F4B90B1076C1858C608F3D9A9E82B /* Debug */ = {
+		F41F91F7CD12047C02C22781CCC2B635 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6BB0243AC85E1023E32DFD3F15DEA9A /* CLWaterWaveView.xcconfig */;
+			baseConfigurationReference = 09F03A8C6A3E908D3B0BF541712D7A77 /* CLWaterWaveView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -550,15 +567,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CLWaterWaveView/CLWaterWaveView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CLWaterWaveView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CLWaterWaveView/CLWaterWaveView.modulemap";
+				PRODUCT_MODULE_NAME = CLWaterWaveView;
 				PRODUCT_NAME = CLWaterWaveView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -571,26 +589,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		610BD09FBEBC33115A3FDC16A0E30293 /* Build configuration list for PBXNativeTarget "CLWaterWaveView" */ = {
+		455004447F270E939B9E67B85F5BE2CB /* Build configuration list for PBXNativeTarget "CLWaterWaveView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D57F4B90B1076C1858C608F3D9A9E82B /* Debug */,
-				225D2CEB96D51F03DD6C68FEE8A4CD48 /* Release */,
+				F41F91F7CD12047C02C22781CCC2B635 /* Debug */,
+				002B3F21936A0EF4D489A1CADC2308A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEF615094AE160316691DE4ED73F00CD /* Build configuration list for PBXNativeTarget "Pods-CLWaterWaveView_Example" */ = {
+		575409544F0331EDDA659A2C3E4129DA /* Build configuration list for PBXNativeTarget "Pods-CLWaterWaveView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D510E34D099D35EF0819080413A9A816 /* Debug */,
-				6A3823D3949F79079E0002B65FA9D74A /* Release */,
+				16F9D979EA7F77E2462B3EF7E16EF5CF /* Debug */,
+				E70402E9A4CE375A0B4A21FD594CBF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
